@@ -215,7 +215,7 @@ function esVocal(letra){
   //Escribe tu código aquí
  if(letra.length > 1) {return "Dato incorrecto"}
  if(letra === "a","e","i","o","u","A","E","I","O","U") {return "Es vocal"}
- else { return "Dato incorrecto"};
+ return "Dato incorrecto"
 }
 
 // No modificar nada debajo de esta línea
